@@ -1,13 +1,98 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    direction: rtl;
+    background-color: rgb(242, 242, 242);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+    font-family: 'IranYekan';
+    text-decoration: none;
+    list-style: none;
+}
+
+.hr {
+    height: 3px;
+    width: 120px;
+    background-color: #eb4d4b;
+    border-radius: 40%;
+}
+
+.review {
+    width: 380px;
+    box-shadow: 0 0 4px 1px rgb(206, 209, 211);
+}
+
+.review-top img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #666
+}
+
+.job {
+    font-size: 14px;
+    font-weight: 600;
+    color: #eb4d4b
+}
+
+.review-middle p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #888;
+    text-align: justify;
+}
+
+.navBtn {
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navBtn .btn {
+    color: #ee5253;
+    transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+}
+
+.navBtn .btn:hover {
+    color: #b62f11;
+    transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+}
+
+.randBtn {
+    font-size: 10px;
+    background-color: #fcc0c0;
+    color: #b62f11;
+    transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+}
+
+.randBtn:hover {
+    background-color: #fca6a6;
+    color: #6e1b09;
+    transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+}
+
+.imgBox span {
+    width: 22px;
+    height: 22px;
+    line-height: 20px;
+    text-align: center;
+    top: 0;
+    left: -8px
 }

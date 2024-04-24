@@ -1,24 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import Review from "./Review";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="App d-flex flex-column vh-100 align-items-center justify-content-center gap-4">
+        <h4>نظرات همکاران</h4>
+        <div className="hr"></div>
+        <Review />
+    </main>
   );
 }
 
