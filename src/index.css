@@ -22,10 +22,18 @@ body {
     box-shadow: 0 0 4px 1px rgb(206, 209, 211);
 }
 
-.review-top img {
+.review-top .avatar {
     width: 64px;
     height: 64px;
     border-radius: 50%;
+    box-shadow: 0 0 3px 1px #0abde3;
+    overflow: hidden;
+}
+
+.review-top .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .name {
